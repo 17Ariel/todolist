@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "todo": "Learn some basic html",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "todo": "Try Django",
+      "completed": true
+    }
+  ]
+}

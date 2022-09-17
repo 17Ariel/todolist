@@ -1,0 +1,16 @@
+<div class="container">
+<app-forms (addTodo)="newTodo($event)"></app-forms>
+<ul>
+    <li *ngFor="let todos of todolist" [ngClass]="todos.completed===true ? 'complete':'uncomplete'">
+        <span>
+            {{ todos.todo }}
+        </span>
+        <div class="btn-group">
+            <button type="button" class="btn-delete" (click)="removeTodo(todos)">Delete</button>
+            <button type="button" class="btn-complete" (click)="completedTodos(todos)">Complete</button>
+        </div>
+    </li>
+</ul>
+</div>
+
+

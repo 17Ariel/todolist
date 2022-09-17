@@ -1,0 +1,10 @@
+<form (ngSubmit)="submit(todoForm)" #todoForm="ngForm">
+    <div class="alert" *ngIf="isError">
+        <span>
+            Please Complete
+        </span>
+    </div>
+    <input type="text" placeholder="Add Todos" [(ngModel)]="todo" name="todo" required>
+    <button type="submit" class="btn">Submit</button>
+</form>
+

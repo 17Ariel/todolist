@@ -1,0 +1,9 @@
+nav{
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #FFF;
+    display: grid;
+    place-items: center;
+}
